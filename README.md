@@ -11,3 +11,6 @@
     - @tailwind base;
     - @tailwind components;
     - @tailwind utilities;
+- add two scripts to package.json
+    - "build": "tailwindcss -i ./input.css -o ./css/main.css",
+    - "watch": "tailwindcss -i ./input.css -o ./css/main.css --watch",
