@@ -14,3 +14,7 @@
 - add two scripts to package.json
     - "build": "tailwindcss -i ./input.css -o ./css/main.css",
     - "watch": "tailwindcss -i ./input.css -o ./css/main.css --watch",
+        - the -i is the input file
+        - the -o is the output file
+        - "build" will run once and build the css
+        - "watch" will run constantly during development
