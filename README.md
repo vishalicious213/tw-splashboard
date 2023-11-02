@@ -23,4 +23,13 @@
     - <link rel="stylesheet" href="css/main.css">
     - add content to the page (<h1 class="text-3xl">Hello World!</h1>)
 - run "npm run watch" to let tailwind monitor the project
-- run live server and view the page
+- run live server and view the page (it will refresh the browser when changes are made now)
+- add screen sizes to "theme" in tailwind.config.js
+```js
+    screens: {
+      sm: '480px',
+      md: '768px',
+      lg: '976px',
+      xl: '1440px'
+    },
+```
