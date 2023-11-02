@@ -1,5 +1,7 @@
 # Tailwind Dashboard Splash Page
 
+## Setup of Tailwind
+
 - npm init -y (to create a package.json)
 - npm i -D tailwindcss (install tailwind as a dependency)
 - create a .gitignore file
