@@ -18,3 +18,6 @@
         - the -o is the output file
         - "build" will run once and build the css
         - "watch" will run constantly during development
+- run "npm run build" and it will create the css file in a css folder
+- create index.html and add link to stylesheet
+    - <link rel="stylesheet" href="css/main.css">
