@@ -10,3 +10,10 @@
     - auto: applies auto as the margin value instead of a specific unit
 - __p-6__: padding of 6 rem
 - __bg-red-500__: background-color, color name, saturation
+
+```html
+<div class="flex items-center justify-between"></div>
+```
+- flex: display: flex
+- items-center: align-items: center
+- justify-between: justify-content: space-between
