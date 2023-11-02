@@ -20,8 +20,8 @@
         - "watch" will run constantly during development
 - run "npm run build" and it will create the css file in a css folder
 - create index.html and add link to stylesheet
-    - <link rel="stylesheet" href="css/main.css">
-    - add content to the page (<h1 class="text-3xl">Hello World!</h1>)
+    - \<link rel="stylesheet" href="css/main.css">
+    - add content to the page (\<h1 class="text-3xl">Hello World!</h1>)
 - run "npm run watch" to let tailwind monitor the project
 - run live server and view the page (it will refresh the browser when changes are made now)
 - add screen sizes to "theme" in tailwind.config.js
