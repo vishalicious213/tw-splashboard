@@ -30,3 +30,9 @@
 - __md__: medium, when combined with flex and hidden, the container is hidden by default (display: hidden), but shows up on medium size and larger (display: flex) in a mobile-first manner
 - __flex__: display: flex
 - __space-x-6__: margin-right: 1.5rem & margin-left: 1.5rem (the space between items)
+
+```html
+<a href="#" class="hover:text-darkGrayishBlue">Pricing</a>
+```
+- __hover__: add hover effect
+- __text__: add text color (color name/details follow, above a custom color is used)
