@@ -62,7 +62,7 @@
 ```html
 <div class="container flex flex-col-reverse md:flex-row items-center px-6 mx-auto mt-10 space-y-0 md:space-y-0"></div>
 ```
-- - __container__: makes the element a container, setting max width and applying breakpoints
+- __container__: makes the element a container, setting max width and applying breakpoints
 - __flex__: display: flex
 - __flex-col-reverse__: flex-direction: column-reverse
 - __md:flex-row__:  at medium width and higher: flex-direction: row
