@@ -55,3 +55,20 @@
 - __md:block__: change from display:none to display:block on medium and greater screen widths
 - __rounded-full__: border-radius: 9999px
 - __baseleine__: should be align-baseline?
+
+## Hero section
+
+### Flex container
+```html
+<div class="container flex flex-col-reverse md:flex-row items-center px-6 mx-auto mt-10 space-y-0 md:space-y-0"></div>
+```
+- - __container__: makes the element a container, setting max width and applying breakpoints
+- __flex__: display: flex
+- __flex-col-reverse__: flex-direction: column-reverse
+- __md:flex-row__:  at medium width and higher: flex-direction: row
+- __items-center__: align-items: center
+- __px-6__: padding-left: 1.5rem & padding-right: 1.5rem
+- __mx-auto__: margin-left: auto & margin-right: auto
+- __mt-10__: margin-top: 2.5rem
+- __space-y-0__: margin-top: 0 & margin-bottom: 0
+- __md:space-y-0__: at medium width and higher: margin-top: 0 & margin-bottom: 0
