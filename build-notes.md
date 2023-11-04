@@ -11,7 +11,7 @@
 - __p-6__: padding of 6 rem
 - __bg-red-500__: background-color, color name, saturation
 
-### flex container
+### Flex container
 
 ```html
 <div class="flex items-center justify-between"></div>
