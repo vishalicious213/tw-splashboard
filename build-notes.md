@@ -95,4 +95,4 @@
 - __font-bold__: bold
 - __text-center__: center the text by default
 - __md:text-5xl__: at medium width, change text size to 5xl
-- __md:textleft__: at medium width, align the text left (override the center default, above)
+- __md:text-left__: at medium width, align the text left (override the center default, above)
