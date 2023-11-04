@@ -59,6 +59,7 @@
 ## Hero section
 
 ### Flex container
+
 ```html
 <div class="container flex flex-col-reverse md:flex-row items-center px-6 mx-auto mt-10 space-y-0 md:space-y-0"></div>
 ```
@@ -74,6 +75,7 @@
 - __md:space-y-0__: at medium width and higher: margin-top: 0 & margin-bottom: 0
 
 ### Left item in flex container
+
 ```html
 <div class="flex flex-col mb-32 space-y-12 md:w-1/2">
 ```
@@ -82,3 +84,15 @@
 - __mb-32__: margin-bottom: 8rem
 - __space-y-12__: margin-top & margin-bottom have some amount of rem unit spacing
 - __md:w-1/2__: at medium width, make this container 1/2 the width of the parent element
+
+### h1 in left item in flex container
+
+```html
+<h1 class="max-w-md text-4xl font-bold text-center md:text-5xl md:textleft">
+```
+- __max-w-md__: the width of the h1 caps out at whatever medium screen width is set to
+- __text-4xl__: size of the text
+- __font-bold__: bold
+- __text-center__: center the text by default
+- __md:text-5xl__: at medium width, change text size to 5xl
+- __md:textleft__: at medium width, align the text left (override the center default, above)
