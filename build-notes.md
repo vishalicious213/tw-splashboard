@@ -72,3 +72,13 @@
 - __mt-10__: margin-top: 2.5rem
 - __space-y-0__: margin-top: 0 & margin-bottom: 0
 - __md:space-y-0__: at medium width and higher: margin-top: 0 & margin-bottom: 0
+
+### Left item in flex container
+```html
+<div class="flex flex-col mb-32 space-y-12 md:w-1/2">
+```
+- __flex__: display: flex
+- __flex-col__: flex-direction: column
+- __mb-32__: margin-bottom: 8rem
+- __space-y-12__: margin-top & margin-bottom have some amount of rem unit spacing
+- __md:w-1/2__: at medium width, make this container 1/2 the width of the parent element
