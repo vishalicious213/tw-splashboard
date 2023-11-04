@@ -36,3 +36,11 @@
 ```
 - __hover__: add styling only for the hover state (other tags exist for focus, etc.)
 - __text__: add text color (color name/details follow, above a custom color is used)
+
+```html
+<a href="" class="hidden md:block p-3 px-6 pt-2 text-white bg-brightRed rounded-full baseline hover:bg-brightRedLight">Get Started</a>
+```
+- __hidden__: display: none
+- __md:block__: change from display:none to display:block on medium and greater screen widths
+- __rounded-full__: border-radius: 9999px
+- __baseleine__: should be align-baseline?
