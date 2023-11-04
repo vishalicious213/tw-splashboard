@@ -96,3 +96,13 @@
 - __text-center__: center the text by default
 - __md:text-5xl__: at medium width, change text size to 5xl
 - __md:text-left__: at medium width, align the text left (override the center default, above)
+
+### p in left item in flex container
+
+```html
+<p class="max-w-sm text-center text-darkGrayishBlue md:text-left">
+```
+- __max-w-sm__: the width of the p caps out at whatever small screen width is set to
+- __text-center__: center the text by default
+- __text-darkGrayishBlue__: set custom text color
+- __md:text-left__: at medium width, align the text left (override the center default)
