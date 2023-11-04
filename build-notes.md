@@ -34,5 +34,5 @@
 ```html
 <a href="#" class="hover:text-darkGrayishBlue">Pricing</a>
 ```
-- __hover__: add hover effect
+- __hover__: add styling only for the hover state (other tags exist for focus, etc.)
 - __text__: add text color (color name/details follow, above a custom color is used)
