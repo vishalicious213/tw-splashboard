@@ -124,11 +124,26 @@
 <div class="container flex flex-col px-4 mx-auto mt-10 space-y-12 md:space-y-0 md:flex-row">
 ```
 
+- container
+- flex
+- flex-col
+- px-4
+- md-auto
+- mt-10
+- space-y-12
+- md:space-y-0
+- md:flex-row
+
 ### What's different
 
 ```html
 <div class="flex flex-col space-y-12 md:w-1/2">
 ```
+
+- flex
+- flex-col
+- space-y-12
+- md:w-1/2
 
 ### h2 in What's different
 
@@ -136,8 +151,19 @@
 <h2 class="max-w-md text-4xl font-bold text-center md:text-left">
 ```
 
+- max-w-md
+- text-4xl
+- font-bold
+- text-center
+- md:text-left
+
 ### p in What's different
 
 ```html
 <p class="max-w-sm text-center text-darkGrayishBlue md:text-left">
 ```
+
+- max-w-sm
+- text-center
+- text-darkGrayishBlue
+- md:text-left
