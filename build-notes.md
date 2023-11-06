@@ -129,3 +129,9 @@
 ```html
 <div class="flex flex-col space-y-12 md:w-1/2">
 ```
+
+### h2 in What's different
+
+```html
+<h2 class="max-w-md text-4xl font-bold text-center md:text-left">
+```
