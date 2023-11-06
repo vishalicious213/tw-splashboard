@@ -135,3 +135,9 @@
 ```html
 <h2 class="max-w-md text-4xl font-bold text-center md:text-left">
 ```
+
+### p in What's different
+
+```html
+<p class="max-w-sm text-center text-darkGrayishBlue md:text-left">
+```
