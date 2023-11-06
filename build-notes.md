@@ -115,3 +115,17 @@
 - __flex__: display: flex
 - __justify-center__: justify-content: center (small screens, centers content in container)
 - __md:justify-start__: at medium width, move content in container (button) to left/start
+
+## Features
+
+### Flex container
+
+```html
+<div class="container flex flex-col px-4 mx-auto mt-10 space-y-12 md:space-y-0 md:flex-row">
+```
+
+### What's different
+
+```html
+<div class="flex flex-col space-y-12 md:w-1/2">
+```
