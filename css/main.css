@@ -591,12 +591,20 @@ video {
   margin-top: 6rem;
 }
 
+.-mt-14 {
+  margin-top: -3.5rem;
+}
+
 .flex {
   display: flex;
 }
 
 .hidden {
   display: none;
+}
+
+.w-16 {
+  width: 4rem;
 }
 
 .max-w-md {
@@ -760,6 +768,11 @@ video {
 .text-lg {
   font-size: 1.125rem;
   line-height: 1.75rem;
+}
+
+.text-sm {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
 }
 
 .font-bold {
