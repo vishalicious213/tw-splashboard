@@ -593,6 +593,11 @@ video {
   margin-bottom: 1.5rem;
 }
 
+.mx-6 {
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+}
+
 .-mt-14 {
   margin-top: -3.5rem;
 }
@@ -617,6 +622,14 @@ video {
   margin-top: 8rem;
 }
 
+.mb-6 {
+  margin-bottom: 1.5rem;
+}
+
+.mb-2 {
+  margin-bottom: 0.5rem;
+}
+
 .block {
   display: block;
 }
@@ -635,6 +648,10 @@ video {
 
 .w-16 {
   width: 4rem;
+}
+
+.w-full {
+  width: 100%;
 }
 
 .max-w-6xl {
@@ -838,6 +855,11 @@ video {
 .py-8 {
   padding-top: 2rem;
   padding-bottom: 2rem;
+}
+
+.py-1 {
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
 }
 
 .pt-2 {
