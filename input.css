@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+.red {
+    outline: 1px solid red;
+}
+
 /* note that the path starts with ../ because the compiled CSS will be in the /css folder */
 body {
     background-image: url("../img/bg-tablet-pattern.svg");
