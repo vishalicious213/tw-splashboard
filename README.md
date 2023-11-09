@@ -1,5 +1,9 @@
 # Tailwind Dashboard Splash Page
 
+Deployed at https://vish213-tw-manage.netlify.app/
+
+---
+
 ## Setup of Tailwind
 
 - npm init -y (to create a package.json)
